@@ -1,0 +1,69 @@
+.titulo{
+    background-color: black;
+    text-align: center;
+    color: white;
+    width: 100%;
+    padding: 1px;
+    margin: 10px;
+}
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+html{
+    height: 100%
+}
+
+body {
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+svg{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.bar{
+    background-color: #2B7A78;
+    border-color: #2B7A78;
+    fill: #2B7A78;
+}
+
+.dot:hover{
+    fill: rgb(221, 221, 221)
+}
+
+g{
+    color: rgb(221, 221, 221)
+}
+
+#tooltip{
+    visibility: hidden;
+    height: auto;
+    width: auto;
+    margin-top: 5px;
+    color: rgb(56, 58, 74);
+    font-size: 15px;
+    margin-bottom: 5px;
+    background-color: white;
+}
+
+#legend{
+    margin-top: 5px;
+    color: rgb(56, 58, 74);
+    font-size: 18px;
+    text-align: center;
+}
+
+#title{
+    font-size: 25px;
+    fill: rgb(221, 221, 221);
+    text-transform: uppercase;
+}
